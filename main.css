@@ -1,4 +1,38 @@
-nav {
-	background-color: #005c1f;
+body {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+.nav {
+	background-color:#005c1f ;
+	width: 80vw;
+	height: 7vw;
+	border-radius: 5px;
+	border: 1px solid #005c1f;
+	max-width: 960px;
+}
+.nav-item {
+	list-style-type: none;
+	display: inline-block;
 	color: white;
+	width:13vw;
+	font-size: 2vw;
+	font-family: sans-serif;
+	text-decoration: none;
+	margin:5px;
+}
+.nav-list {
+
+}
+.pic {
+	border-radius: 5px;
+}
+.big-pic {
+	width: 80vw;
+}
+.pic-bunch {
+	width:80vw;
+}
+.little-pic {
+	width: 15vw;
+	margin: 3px;
 }
