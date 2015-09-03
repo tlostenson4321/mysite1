@@ -5,23 +5,24 @@ body {
 .nav {
 	background-color:#005c1f ;
 	width: 80vw;
-	height: 7vw;
 	border-radius: 5px;
 	border: 1px solid #005c1f;
+	
 }
 .nav-item {
 	list-style-type: none;
 	display: inline-block;
 	color: white;
-	width:15%;
-	font-size: 20px;
+	width:10%;
+	font-size: 17px;
 	font-family: sans-serif;
 	text-decoration: none;
-	margin:5px;
-	padding-left: 15px;
+	margin: 5px 10px;
 }
 .nav-list {
-
+	padding: 0px 20px 0px 0px;
+	text-align: center;
+	
 }
 .pic {
 	border-radius: 5px;
@@ -31,13 +32,25 @@ body {
 }
 .pic-bunch {
 	width:80vw;
+	text-align: center;
 
 }
 .little-pic {
 	width: 15vw;
 	margin: 3px;
 	max-width: 182px;
+	
 }
 .max-width {
 	max-width: 960px;
+}
+@media screen and (max-width: 575px) {
+	.little-pic {
+		width: 100%;
+		display: block;
+	}
+	.nav-item {
+		width:100%;
+		display: block;
+	}
 }
